@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const db = require("./Develop/db/db.json");
+const db = require("./db/db.json");
 const fs = require("fs");
 const { v4: generateId } = require("uuid");
 
